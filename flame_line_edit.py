@@ -9,7 +9,7 @@ class FlameLineEdit(QtWidgets.QLineEdit):
     line_edit = FlameLineEdit('Some text here', window)
     """
 
-    def __init__(self, text, parent, *args, **kwargs):
+    def __init__(self, text, parent_window, *args, **kwargs):
         super(FlameLineEdit, self).__init__(*args, **kwargs)
 
         self.setText(text)
