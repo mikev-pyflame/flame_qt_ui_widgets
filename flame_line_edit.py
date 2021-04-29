@@ -13,7 +13,7 @@ class FlameLineEdit(QtWidgets.QLineEdit):
         super(FlameLineEdit, self).__init__(*args, **kwargs)
 
         self.setText(text)
-        self.setParent(parent)
+        self.setParent(parent_window)
         self.setMinimumHeight(28)
         self.setMinimumWidth(110)
         self.setFocusPolicy(QtCore.Qt.NoFocus)

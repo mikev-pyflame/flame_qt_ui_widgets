@@ -7,13 +7,13 @@ class FlamePushButton(QtWidgets.QPushButton):
     pushbutton = FlamePushButton(' Button Name', true_or_false, window)
     """
 
-    def __init__(self, button_name, button_is_checked, parent_window, *args, **kwargs):
+    def __init__(self, button_name, button_checked, parent_window, *args, **kwargs):
         super(FlamePushButton, self).__init__(*args, **kwargs)
 
         self.setText(button_name)
-        self.setParent(parent)
+        self.setParent(parent_window)
         self.setCheckable(True)
-        self.setChecked(checked)
+        self.setChecked(button_checked)
         self.setMinimumSize(110, 28)
         self.setMaximumSize(110, 28)
         self.setFocusPolicy(QtCore.Qt.NoFocus)
