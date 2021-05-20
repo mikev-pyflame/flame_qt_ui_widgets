@@ -6,7 +6,7 @@ class FlameLabel(QtWidgets.QLabel):
 
     To use:
 
-    label = FlameLabel('Label Name', label_type='normal', window)
+    label = FlameLabel('Label Name', 'normal', window)
     """
 
     def __init__(self, label_name, label_type, parent_window, *args, **kwargs):
