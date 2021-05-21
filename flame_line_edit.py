@@ -16,7 +16,7 @@ class FlameLineEdit(QtWidgets.QLineEdit):
         self.setParent(parent_window)
         self.setMinimumHeight(28)
         self.setMinimumWidth(110)
-        self.setFocusPolicy(QtCore.Qt.NoFocus)
+        # self.setFocusPolicy(QtCore.Qt.NoFocus)
         self.setStyleSheet('QLineEdit {color: #9a9a9a; background-color: #373e47; selection-color: #262626; selection-background-color: #b8b1a7; font: 14px "Discreet"}'
                            'QLineEdit:focus {background-color: #474e58}'
                            'QLineEdit:disabled {color: #6a6a6a; background-color: #373737}')
