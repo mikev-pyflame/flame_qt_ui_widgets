@@ -2,7 +2,7 @@ class FlameLabel(QtWidgets.QLabel):
     """
     Custom Qt Flame Label Widget
 
-    For different label looks use: 'normal', 'background', or 'outline'
+    For different label looks set label_type as: 'normal', 'background', or 'outline'
 
     To use:
 
