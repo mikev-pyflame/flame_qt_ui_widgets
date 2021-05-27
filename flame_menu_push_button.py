@@ -1,4 +1,4 @@
-class FlameMenuPushButtonMenu(QtWidgets.QPushButton):
+class FlamePushButtonMenu(QtWidgets.QPushButton):
     """
     Custom Qt Flame Menu Push Button Widget
 
@@ -14,7 +14,7 @@ class FlameMenuPushButtonMenu(QtWidgets.QPushButton):
     """
 
     def __init__(self, button_name, menu_options, parent_window, *args, **kwargs):
-        super(FlameMenuPushButtonMenu, self).__init__(*args, **kwargs)
+        super(FlamePushButtonMenu, self).__init__(*args, **kwargs)
         from functools import partial
 
         self.setText(button_name)
