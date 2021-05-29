@@ -4,7 +4,7 @@ class FlameButton(QtWidgets.QPushButton):
 
     To use:
 
-    button = FlameButton('Button Name', do_this_when_pressed, window)
+    button = FlameButton('Button Name', do_when_pressed, window)
     """
 
     def __init__(self, button_name, do_when_pressed, parent_window, *args, **kwargs):
